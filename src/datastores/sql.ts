@@ -19,7 +19,6 @@ export const sqlpool = mysql.createPool({
 export const qurey = (sql: string, values?: Array<any> | Object) => {
     return new Promise((resolve, reject) => {
         sqlpool.query(sql, values, (error, results, fields) => {
-            console.log(fields);
             if (error) reject(error);
             resolve(results);
         });
