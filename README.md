@@ -89,9 +89,9 @@ refer to the example.env for app configuration.
 
 -   #### Build Application
 
-    This will compile typescript to javascript
-
         $ yarn build
+
+    This will compile typescript to javascript
 
 -   #### Start Application
 
@@ -99,9 +99,9 @@ refer to the example.env for app configuration.
 
 -   #### Start Application With Nodemom
 
-    Application will restart on changes to ./src source folder
-
         $ yarn debug
+
+    Application will restart on changes to ./src source folder
 
 ### Who do I talk to?
 
