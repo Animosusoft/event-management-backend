@@ -82,8 +82,8 @@ refer to the example.env for app configuration.
      $ DB_NAME=*******
      $ DB_USER=*******
      $ DB_PASSWORD=*******
-     $ WT_ENCRYPTION=****************************
-     $ WT_EXPIRATION=*******
+     $ JWT_ENCRYPTION=****************************
+     $ JWT_EXPIRATION=*******
 
 ## Running the project
 
