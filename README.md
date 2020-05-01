@@ -73,28 +73,35 @@ following command.
 Create a .env file in project root directory for your enviroment config. You can
 refer to the example.env for app configuration.
 
-$ APP=dev
-   $ PORT=**\*\*\*** $ BCRYPT_SALT = *******
-   $ DB_DIALECT=**\*\*\***
-$ DB_HOST=*******
-   $ DB_PORT=**\*\*\*** $ DB_NAME=*******
-   $
-DB_USER=**\*\*\*** $ DB_PASSWORD=*******
-   $
-JWT_ENCRYPTION=************\*\*\*\************* \$ JWT_EXPIRATION=**\*\*\***
+     $ APP=dev
+     $ PORT=*******
+     $ BCRYPT_SALT = *******
+     $ DB_DIALECT=*******
+     $ DB_HOST=*******
+     $ DB_PORT=*******
+     $ DB_NAME=*******
+     $ DB_USER=*******
+     $ DB_PASSWORD=*******
+     $ WT_ENCRYPTION=****************************
+     $ WT_EXPIRATION=*******
 
 ## Running the project
 
 -   #### Build Application
 
-    This will compile typescript to javascript. \$ yarn build
+    This will compile typescript to javascript
+
+        $ yarn build
 
 -   #### Start Application
 
-    \$ yarn start
+        $ yarn start
 
 -   #### Start Application With Nodemom
-    Application will restart on changes to ./src source folder. \$ yarn debug
+
+    Application will restart on changes to ./src source folder
+
+        $ yarn debug
 
 ### Who do I talk to?
 
